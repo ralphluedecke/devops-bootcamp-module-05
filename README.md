@@ -46,7 +46,7 @@ check version
 gradle -v
 ```
 ## build, deploy and run java app on remote server
-### build
+### build (on local machine)
 - clone repo https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example
 - change into project dir 
 ```bash
@@ -54,13 +54,13 @@ gradle build
 ```
 
 ### deploy
-take the created jar and copy it to the server
+take the created jar and copy it to the droplet
 ```bash
 scp *.jar root@(IP of droplet)
 ```
 
 ### run
-logon to the server and execute the jar
+logon to the droplet and execute the jar
 ```bash
 java -jar *.jar
 ```
