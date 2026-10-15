@@ -14,6 +14,7 @@ open droplet
 click networking
 create firewall
 add port 22 as an inbound rule
+add port 7071  as an inbound rule
 ### ssh into server
 on your local computer do
 
@@ -55,3 +56,6 @@ java -jar *.jar
 1. create a new admin user
 2. assign only needed roles
 3. assign correct directory rights
+
+# resources from nana
+- https://gitlab.com/twn-devops-bootcamp/latest/05-cloud/java-react-example/-/tree/master?ref_type=heads
